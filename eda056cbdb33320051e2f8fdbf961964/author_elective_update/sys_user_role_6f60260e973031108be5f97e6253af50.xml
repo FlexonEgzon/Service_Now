@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_42072_expense_ma.Read Expense</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Read Expense</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-23 07:52:51</sys_created_on>
+        <sys_id>6f60260e973031108be5f97e6253af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_42072_expense_ma.Read Expense</sys_name>
+        <sys_package display_value="Expense Management" source="x_42072_expense_ma">eda056cbdb33320051e2f8fdbf961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">eda056cbdb33320051e2f8fdbf961964</sys_scope>
+        <sys_update_name>sys_user_role_6f60260e973031108be5f97e6253af50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-23 07:52:51</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">eda056cbdb33320051e2f8fdbf961964</application>
+        <file_path/>
+        <instance_id>8e249c6bdb752d980b9d21c4059619f9</instance_id>
+        <instance_name>dev169653</instance_name>
+        <name>sys_user_role_6f60260e973031108be5f97e6253af50</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_42072_expense_ma.Read Expense</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>Read Expense</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-23 07:52:51</sys_created_on><sys_id>6f60260e973031108be5f97e6253af50</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_42072_expense_ma.Read Expense</sys_name><sys_package display_value="Expense Management" source="x_42072_expense_ma">eda056cbdb33320051e2f8fdbf961964</sys_package><sys_policy/><sys_scope display_value="Expense Management">eda056cbdb33320051e2f8fdbf961964</sys_scope><sys_update_name>sys_user_role_6f60260e973031108be5f97e6253af50</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-23 07:52:51</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-846786539</payload_hash>
+        <record_name>x_42072_expense_ma.Read Expense</record_name>
+        <reverted_from/>
+        <source>231668ad973031108be5f97e6253af93</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-23 07:52:51</sys_created_on>
+        <sys_id>4e80a60e973031108be5f97e6253af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a2161c9810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-23 07:52:51</sys_updated_on>
+        <type>Role</type>
+        <update_guid>4280a60eec303110ef15f2b56437c817</update_guid>
+        <update_guid_history>4280a60eec303110ef15f2b56437c817:-846786539</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_42072_expense_ma.Read Expense">bae000cb970131108be5f97e6253af90</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 09:05:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>773befe1778e4dab9d9ddff6983a9661</sys_id>
+        <sys_metadata>6f60260e973031108be5f97e6253af50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_42072_expense_ma.Read Expense</sys_name>
+        <sys_package display_value="Expense Management" source="x_42072_expense_ma">eda056cbdb33320051e2f8fdbf961964</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">eda056cbdb33320051e2f8fdbf961964</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_user_role_6f60260e973031108be5f97e6253af50</sys_update_name>
+        <sys_update_version display_value="sys_user_role_6f60260e973031108be5f97e6253af50">4e80a60e973031108be5f97e6253af17</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 09:05:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

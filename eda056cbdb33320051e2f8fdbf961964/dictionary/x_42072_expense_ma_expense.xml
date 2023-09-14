@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ab564483974131108be5f97e6253af1c" label="Expense" max_length="40" name="x_42072_expense_ma_expense" type="collection">
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element label="Exepense On" max_length="40" name="exepense_on" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Product" max_length="32" name="product" reference="cmdb_application_product_model" type="reference"/>
+        <element choice="1" default="1" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="3"/>
+                <element inactive_on_update="false" label="Booked" value="10"/>
+                <element inactive_on_update="false" label="Draft" value="1"/>
+                <element inactive_on_update="false" label="Rejected" value="-1"/>
+                <element inactive_on_update="false" label="Waiting for Approval" value="2"/>
+            </choice>
+        </element>
+        <element label="Story" max_length="32" name="story" reference="rm_story" reference_qual="javascript: 'sys_idIN'+ new 'ScriptInlcude'(filterStory()).'Methode'(filter())) " type="reference" use_reference_qualifier="advanced"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Weekly Timecard" max_length="32" name="weekly_timecard" reference="x_42072_expense_ma_weekly_timecard" type="reference"/>
+        <element label="Worktime" max_length="40" name="worktime" type="float"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+        <index name="index4">
+            <element name="weekly_timecard"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_42072_expense_ma.ExpenseUTILS</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ExpenseUTILS</name>
+        <script><![CDATA[var ExpenseUTILS = Class.create();
+ExpenseUTILS.prototype = {
+    initialize: function() {
+    },
+
+    type: 'ExpenseUTILS'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-09 14:18:50</sys_created_on>
+        <sys_id>d9db576b970131108be5f97e6253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ExpenseUTILS</sys_name>
+        <sys_package display_value="Expense Management" source="x_42072_expense_ma">eda056cbdb33320051e2f8fdbf961964</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Expense Management">eda056cbdb33320051e2f8fdbf961964</sys_scope>
+        <sys_update_name>sys_script_include_d9db576b970131108be5f97e6253af8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-09 14:18:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

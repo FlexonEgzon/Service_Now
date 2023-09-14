@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ab823dc8971d71108be5f97e6253af78" sys_domain="global" table="x_42072_expense_ma_expense" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-10 19:55:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff823dc8971d71108be5f97e6253af7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_42072_expense_ma_expense" name="x_42072_expense_ma_expense" sys_domain="global" view="Default view">ab823dc8971d71108be5f97e6253af78</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_42072_expense_ma_expense" sys_domain="global" view="Default view">f6fb0407978131108be5f97e6253af91</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-10 19:55:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 10:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a36bc149799b1108be5f97e6253af38</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_42072_expense_ma_expense" name="x_42072_expense_ma_expense" sys_domain="global" view="Default view">ab823dc8971d71108be5f97e6253af78</sys_ui_form>
+            <sys_ui_section caption="Worktime" display_value="Worktime" name="x_42072_expense_ma_expense" sys_domain="global" view="Default view">3536bc149799b1108be5f97e6253af35</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 10:10:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-10 19:55:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb823dc8971d71108be5f97e6253af7c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_42072_expense_ma_expense" name="x_42072_expense_ma_expense" sys_domain="global" view="Default view">ab823dc8971d71108be5f97e6253af78</sys_ui_form>
+            <sys_ui_section caption="Beschreibung" display_value="Beschreibung" name="x_42072_expense_ma_expense" sys_domain="global" view="Default view">23823dc8971d71108be5f97e6253af77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 10:10:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_42072_expense_ma_expense</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-10 19:55:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab823dc8971d71108be5f97e6253af78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_42072_expense_ma_expense</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Expense Management" source="x_42072_expense_ma">eda056cbdb33320051e2f8fdbf961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Management">eda056cbdb33320051e2f8fdbf961964</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ab823dc8971d71108be5f97e6253af78</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-10 19:55:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

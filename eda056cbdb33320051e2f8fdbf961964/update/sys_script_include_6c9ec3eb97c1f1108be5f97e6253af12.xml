@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_42072_expense_ma.filterStory </api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>filterStory </name>
+        <script><![CDATA[var filterStory = Class.create();
+filterStory.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'filterStory',
+
+    // Constructor function
+    initialize: function(request, responseXML, gc) {
+        this._super(request, responseXML, gc);
+    },
+
+    // The filter function to get sys_ids of stories with the same product
+    filter: function() {
+        // Get the current record's product value (you would replace this with the actual field name)
+        var currentProduct = this.getParameter('current_product');
+
+        // Use GlideRecord to query stories with the same product
+        var gr = new GlideRecord('story_table'); // Replace 'story_table' with your actual table name
+        gr.addQuery('product_field', currentProduct); // Replace 'product_field' with your actual field name
+        gr.query();
+
+        var sysIds = [];
+        while (gr.next()) {
+            sysIds.push(gr.sys_id.toString());
+        }
+
+        return sysIds;
+    },
+
+    // The execute function to handle AJAX requests
+    execute: function() {
+        var result = this.filter();
+        this._writeResponse(result);
+    }
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-09 13:24:33</sys_created_on>
+        <sys_id>6c9ec3eb97c1f1108be5f97e6253af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>filterStory </sys_name>
+        <sys_package display_value="Expense Management" source="x_42072_expense_ma">eda056cbdb33320051e2f8fdbf961964</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Expense Management">eda056cbdb33320051e2f8fdbf961964</sys_scope>
+        <sys_update_name>sys_script_include_6c9ec3eb97c1f1108be5f97e6253af12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-09 13:24:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

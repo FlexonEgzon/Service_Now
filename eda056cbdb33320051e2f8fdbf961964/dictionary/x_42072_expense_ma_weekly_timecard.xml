@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bbe44803974131108be5f97e6253afa1" label="Weekly Timecard" max_length="40" name="x_42072_expense_ma_weekly_timecard" type="collection">
+        <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element label="End of Week" max_length="40" name="end_of_week" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Required Hours" max_length="40" name="required_hours" type="integer"/>
+        <element label="Start of Week" max_length="40" name="start_of_week" type="glide_date"/>
+        <element label="User Timecard" max_length="32" name="user_timecard" reference="x_42072_expense_ma_usertimecard" type="reference"/>
+        <index name="index">
+            <element name="user_timecard"/>
+        </index>
+    </element>
+</database>
